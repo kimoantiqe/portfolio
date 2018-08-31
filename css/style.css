@@ -4,6 +4,10 @@
 	  box-sizing: border-box;
 	}
 
+	html {
+	  overflow-x: hidden;
+	}
+
 	body {
 	  height: 100%;
 	  max-width: 100%;
@@ -14,6 +18,14 @@
 	section {
 	  height: 100%;
 	  padding: 10px;
+	}
+
+	a:hover {
+	  color: #decac5;
+	}
+
+	.nav-light {
+	  background-color: #fffdfd;
 	}
 
 	.tri-light {
@@ -84,6 +96,14 @@
 	.beige {
 	  font-size: 18px;
 	  color: #655959 !important;
+	}
+
+
+	@media screen and (min-width: 991px;) {
+		.navbar navbar-expand-lg navbar-light fixed-top{
+  	  background-color: #fffdfd;
+  	}
+
 	}
 
 	@font-face {
@@ -210,6 +230,7 @@
 	.projects-image {
 	  width: 100%;
 	}
+
 	@media screen and (min-width: 768px) {
 	  .portfolio-projects {
 	    margin-top: 0.625em;
@@ -217,23 +238,27 @@
 	}
 
 	.projects-title {
+	  color: #7d7572;
 	  margin-top: 0.9375em;
 	}
 
 	@media screen and (min-width: 768px) {
 	  .projects-title {
+	    color: #7d7572;
 	    margin-top: 20%;
 	  }
 	}
 
 	@media screen and (min-width: 1200px) {
 	  .projects-title {
+	    color: #7d7572;
 	    margin-top: 5%;
 	  }
 	}
 
 	@media screen and (min-width: 768px) {
 	  .projects-desc {
+	    color: #8e7c77;
 	    margin-top: 10%;
 	    margin-bottom: 10%;
 	  }
@@ -241,7 +266,7 @@
 
 	.btn--project {
 	  background: transparent;
-	  color: #07374a;
+	  color: #7e7573;
 	  border: 1px solid #bbb2af;
 	  border-radius: 5px;
 	  margin-bottom: 1.25em;
@@ -258,25 +283,22 @@
 	}
 
 	@font-face {
-		font-family: "Marguaritas";
-		src: url("../fonts/Nature Beauty Personal Use.ttf");
+	  font-family: "Marguaritas";
+	  src: url("../fonts/Nature Beauty Personal Use.ttf");
 	}
 
 	.contact-info {
-		padding: 20px;
-		text-align: center;
+	  padding: 20px;
+	  text-align: center;
 	}
-
-
 
 	.contact-info p {
-		font-family: 'Righteous', cursive;
-		color: #978484;
-		font-weight: normal;
-		margin-top: 30px;
-		font-size: 15px;
+	  font-family: 'Righteous', cursive;
+	  color: #978484;
+	  font-weight: normal;
+	  margin-top: 30px;
+	  font-size: 15px;
 	}
-
 
 	/** https://codepen.io/shshaw/pen/DxJka **/
 	@import "lesshat";
