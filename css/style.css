@@ -87,12 +87,12 @@
 	}
 
 	@font-face {
-	  font-family: "myFirstFont";
+	  font-family: "Master of Comics";
 	  src: url("../fonts/Master of Comics Personal Use.ttf");
 	}
 
 	.nav-title {
-	  font-family: 'myFirstFont', cursive;
+	  font-family: 'Master of Comics', cursive;
 	  color: #655959 !important;
 	  font-size: 25px;
 	}
@@ -170,8 +170,8 @@
 	  box-shadow: 0 0 0 0.2rem #e6dada;
 	}
 
-	.foot-text {
-	  font-family: 'Pacifico', cursive;
+	.foot-text-eldegwy {
+	  font-family: 'Master of Comics', cursive;
 	  text-align: center;
 	  color: #baa4a4;
 	  font-size: 40px;
@@ -179,7 +179,7 @@
 	  margin-top: 5px;
 	}
 
-	.foot-text2 {
+	.foot-text-thankyou {
 	  font-family: 'Pacifico', cursive;
 	  text-align: center;
 	  color: #baa4a4;
@@ -256,6 +256,27 @@
 	  margin-bottom: 1.875em;
 	  padding-top: 5%;
 	}
+
+	@font-face {
+		font-family: "Marguaritas";
+		src: url("../fonts/Nature Beauty Personal Use.ttf");
+	}
+
+	.contact-info {
+		padding: 20px;
+		text-align: center;
+	}
+
+
+
+	.contact-info p {
+		font-family: 'Righteous', cursive;
+		color: #978484;
+		font-weight: normal;
+		margin-top: 30px;
+		font-size: 15px;
+	}
+
 
 	/** https://codepen.io/shshaw/pen/DxJka **/
 	@import "lesshat";
