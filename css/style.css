@@ -207,6 +207,56 @@
 	  text-align: center;
 	}
 
+	.projects-image {
+	  width: 100%;
+	}
+	@media screen and (min-width: 768px) {
+	  .portfolio-projects {
+	    margin-top: 0.625em;
+	  }
+	}
+
+	.projects-title {
+	  margin-top: 0.9375em;
+	}
+
+	@media screen and (min-width: 768px) {
+	  .projects-title {
+	    margin-top: 20%;
+	  }
+	}
+
+	@media screen and (min-width: 1200px) {
+	  .projects-title {
+	    margin-top: 5%;
+	  }
+	}
+
+	@media screen and (min-width: 768px) {
+	  .projects-desc {
+	    margin-top: 10%;
+	    margin-bottom: 10%;
+	  }
+	}
+
+	.btn--project {
+	  background: transparent;
+	  color: #07374a;
+	  border: 1px solid #bbb2af;
+	  border-radius: 5px;
+	  margin-bottom: 1.25em;
+	}
+
+	.btn--project:hover {
+	  background: #bbb2af;
+	  color: #f0f0e6;
+	}
+
+	.projects-image {
+	  margin-bottom: 1.875em;
+	  padding-top: 5%;
+	}
+
 	/** https://codepen.io/shshaw/pen/DxJka **/
 	@import "lesshat";
 
