@@ -24,6 +24,10 @@
 	  color: #decac5;
 	}
 
+	.navbar {
+	  transition: background-color 1s ease 0s;
+	}
+
 	.nav-light {
 	  background-color: #fffdfd;
 	}
@@ -71,9 +75,10 @@
 	  background-image: url('../images/KHE-04.png');
 	  background-repeat: no-repeat;
 	  background-attachment: fixed;
-	  background-position: left;
+	  background-position: 35% 40%;
 	  padding-bottom: 0;
 	}
+
 
 	.banner {
 	  width: 100%;
@@ -98,12 +103,16 @@
 	  color: #655959 !important;
 	}
 
+	@media screen and (min-width: 991px;
 
-	@media screen and (min-width: 991px;) {
-		.navbar navbar-expand-lg navbar-light fixed-top{
-  	  background-color: #fffdfd;
-  	}
+	) {
+	  .navbar navbar-expand-lg navbar-light fixed-top {
+	    background-color: #fffdfd;
+	  }
+	}
 
+	.navbar.mobile-opened {
+	  background: #fffdfd;
 	}
 
 	@font-face {

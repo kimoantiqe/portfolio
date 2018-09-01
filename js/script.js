@@ -44,3 +44,13 @@
 		  }, 1100, 'easeInOutExpo'); //Using easing plugin
 		  event.preventDefault();
 		});
+
+		$('#nav-menue').on('show.bs.collapse', function () {
+		  $('.navbar').addClass('mobile-opened');
+		  $('.navbar-brand').addClass('mobile-opened');
+		});
+
+		$('#nav-menue').on('hide.bs.collapse', function () {
+		  $('.navbar').removeClass('mobile-opened');
+		  $('.navbar-brand').removeClass('mobile-opened');
+		});
