@@ -24,6 +24,9 @@
 	  color: #decac5;
 	}
 
+	#projects img:hover {
+    cursor: pointer;
+	}	
 	.navbar {
 	  transition: background-color 1s ease 0s;
 	}
